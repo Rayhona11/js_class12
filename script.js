@@ -31,4 +31,6 @@ class Students extends User{
 }
 
 // GETTER va BETTER
-let u = new Students('Sardor',1989,'IT park')
+let u = new Students('Sardor',1989,'IT park','23-gurux')
+console.log(u);
+
