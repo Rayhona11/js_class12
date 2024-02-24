@@ -34,3 +34,19 @@ class Students extends User{
 let u = new Students('Sardor',1989,'IT park','23-gurux')
 console.log(u);
 
+u.Mark = 5
+console.log(u.mark);
+u.age = 258
+console.log(u.age);
+// u.#salom()
+
+
+
+$('h1').on('click',() =>{
+    $('h1').setColor('red')
+    $('h1').lsp('20px')
+    $('h1').yozuvRazmeri = '55px'
+})
+
+
+
